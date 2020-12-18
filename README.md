@@ -9,4 +9,6 @@ Data come from the Storm Prediction Center at https://www.spc.noaa.gov/wcm/#data
 
 Python dependencies include plotly, pandas, numpy, and json. This code is written assuming you have a (free) mapbox token for displaying background maps, but there are other map options you can use without a token (see https://plotly.com/python/mapbox-layers/).
 
+I've also added county boundaries via a geojson file - if you're plotting for a different state or the US you'll need to track down such a file, for example here: https://eric.clst.org/tech/usgeojson/
+
 
